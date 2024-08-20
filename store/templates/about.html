@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load cart %}
+{% load custom_filter %}
+<!-- body -->
+<div class="container-fluid mt-3">
+    <div class="row">
+
+        <!-- filter -->
+        <div class="col-lg-8 mx-auto">
+            <div class="about-us-container p-4 shadow-sm rounded">
+
+                <h1 class="about-us-title">About Us</h1>
+                <br>
+                <p>
+                    Welcome to <strong>[Your Toy Shop's Name]</strong>!
+                </p>
+                <p>
+                    At <strong>[Your Toy Shop's Name]</strong>, we believe that toys are more than just playthings—they are gateways to imagination, learning, and joy. Our mission is to bring the best selection of toys to children of all ages, fostering creativity and fun in a safe, welcoming environment.
+                </p>
+
+                <h2 class="about-us-heading">Our Story</h2>
+                <p>
+                    Founded in <strong>[Year]</strong>, <strong>[Your Toy Shop's Name]</strong> began with a simple idea: to create a place where kids and parents alike could find toys that inspire. Our founders, <strong>[Founder Names]</strong>, were passionate about the power of play and the role it plays in child development. With years of experience in the toy industry, they set out to build a shop that offers a curated collection of high-quality, educational, and entertaining toys.
+                </p>
+
+                <h2 class="about-us-heading">Our Vision</h2>
+                <p>
+                    We aim to be the go-to destination for families looking for toys that spark joy and creativity. Our vision is to provide a diverse range of products that cater to the unique interests and needs of every child. We strive to create an environment where every visit is an adventure, and every purchase brings happiness.
+                </p>
+
+                <h2 class="about-us-heading">Our Values</h2>
+                <ul>
+                    <li><strong>Quality</strong>: We handpick each toy in our collection to ensure it meets our high standards for safety, durability, and educational value.</li>
+                    <li><strong>Customer Satisfaction</strong>: Your happiness is our priority. Our friendly and knowledgeable staff are always here to help you find the perfect toy.</li>
+                    <li><strong>Community</strong>: We are committed to giving back to our community through various initiatives and partnerships with local organizations.</li>
+                    <li><strong>Innovation</strong>: We stay on top of the latest trends and developments in the toy industry to bring you the newest and most exciting products.</li>
+                </ul>
+
+                <h2 class="about-us-heading">What We Offer</h2>
+                <ul>
+                    <li><strong>A Wide Selection</strong>: From classic toys and games to the latest trends, we have something for every child.</li>
+                    <li><strong>Expert Advice</strong>: Our team is passionate about toys and ready to help you make informed choices.</li>
+                    <li><strong>Convenient Shopping</strong>: Enjoy a seamless shopping experience both in-store and online, with options for delivery and in-store pickup.</li>
+                    <li><strong>Special Events</strong>: Join us for fun-filled events and workshops that bring toys to life and provide a unique shopping experience.</li>
+                </ul>
+
+                <h2 class="about-us-heading">Join Our Community</h2>
+                <p>
+                    At <strong>[Your Toy Shop's Name]</strong>, we are more than just a toy shop—we are a community. Follow us on social media, sign up for our newsletter, and stay connected to be the first to know about new arrivals, special offers, and exciting events.
+                </p>
+
+                <p>
+                    Thank you for choosing <strong>[Your Toy Shop's Name]</strong> as your trusted source for the best toys. We look forward to bringing smiles to your family's faces for years to come!
+                </p>
+
+            </div>
+        </div>
+
+        <!-- all products -->
+
+    </div>
+</div>
+
+{% endblock %}
+
+<style>
+	.about-us-container {
+		background-color: #fff;
+		padding: 30px;
+		margin-top: 20px;
+	}
+	
+	.about-us-title {
+		font-size: 2.5rem;
+		color: #ff6347; /* Tomato color for the title */
+		text-align: center;
+	}
+	
+	.about-us-heading {
+		font-size: 1.75rem;
+		color: #4682b4; /* SteelBlue color for headings */
+		margin-top: 20px;
+	}
+	
+	.about-us-container p {
+		font-size: 1.1rem;
+		line-height: 1.6;
+		color: #333;
+	}
+	
+	.about-us-container ul {
+		list-style-type: disc;
+		padding-left: 20px;
+	}
+	
+	.about-us-container ul li {
+		font-size: 1.1rem;
+		margin-bottom: 10px;
+		color: #333;
+	}
+	
+	.about-us-container strong {
+		color: #000;
+	}
+</style>
